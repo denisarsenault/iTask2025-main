@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		175799DC2A934C4E00948A2E /* TaskManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175799DB2A934C4E00948A2E /* TaskManagerApp.swift */; };
+		175799DC2A934C4E00948A2E /* myTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175799DB2A934C4E00948A2E /* myTaskApp.swift */; };
 		175799DE2A934C4E00948A2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175799DD2A934C4E00948A2E /* ContentView.swift */; };
 		175799E02A934C5200948A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175799DF2A934C5200948A2E /* Assets.xcassets */; };
 		175799E32A934C5200948A2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175799E22A934C5200948A2E /* Preview Assets.xcassets */; };
@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		175799D82A934C4E00948A2E /* myTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		175799DB2A934C4E00948A2E /* TaskManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerApp.swift; sourceTree = "<group>"; };
+		175799DB2A934C4E00948A2E /* myTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTaskApp.swift; sourceTree = "<group>"; };
 		175799DD2A934C4E00948A2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		175799DF2A934C5200948A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		175799E22A934C5200948A2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		175799DA2A934C4E00948A2E /* myTask */ = {
 			isa = PBXGroup;
 			children = (
-				175799DB2A934C4E00948A2E /* TaskManagerApp.swift */,
+				175799DB2A934C4E00948A2E /* myTaskApp.swift */,
 				175799DD2A934C4E00948A2E /* ContentView.swift */,
 				175799F12A934FF800948A2E /* SidebarView.swift */,
 				175799F52A93560D00948A2E /* TaskListView.swift */,
@@ -135,6 +135,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1620;
+				ORGANIZATIONNAME = myBrightzone;
 				TargetAttributes = {
 					175799D72A934C4E00948A2E = {
 						CreatedOnToolsVersion = 15.0;
@@ -182,7 +183,7 @@
 				175799EC2A934CCC00948A2E /* Task.swift in Sources */,
 				175799F02A934ECE00948A2E /* TaskSection.swift in Sources */,
 				175799EE2A934DE100948A2E /* TaskGroup.swift in Sources */,
-				175799DC2A934C4E00948A2E /* TaskManagerApp.swift in Sources */,
+				175799DC2A934C4E00948A2E /* myTaskApp.swift in Sources */,
 				175799F22A934FF800948A2E /* SidebarView.swift in Sources */,
 				175799F62A93560D00948A2E /* TaskListView.swift in Sources */,
 			);
